@@ -5,8 +5,8 @@
 #
 #
 # This file is under source-control of the IBM PLanning Analytics Workspace 
-# installation and update scripts, any changes made to this file will be hournered
-# As this file will only be installed once. 
+# installation and update scripts, any changes made to this file will be lost
+# as this file will be overwritten on upgrades. 
 
 # Backing up the PAW instance also restarts the instance
 33 3 * * 0 root /ibm/additional_scripts/divert-backup.sh
