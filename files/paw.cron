@@ -9,7 +9,7 @@
 # As this file will only be installed once. 
 
 # Backing up the PAW instance also restarts the instance
-59 1    * * 7   root    PATH="$PATH:/usr/local/bin/" /ibm/paw/xxxx/scripts/backup
+33 3 * * 0 root /ibm/additional_scripts/divert-backup.sh
 
 # delete old backups
-
+33 4 * * 0 root /ibm/additional_scripts/divert-delete.sh
