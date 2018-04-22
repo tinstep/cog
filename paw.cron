@@ -1,0 +1,15 @@
+# IBM Planning Analytics
+# Auto install and upgrade script.
+# This is the cron file under source control
+#
+#
+#
+# This file is under source-control of the IBM PLanning Analytics Workspace 
+# installation and update scripts, any changes made to this file will be hournered
+# As this file will only be installed once. 
+
+# Backing up the PAW instance also restarts the instance
+59 1    * * 7   root    PATH="$PATH:/usr/local/bin/" /ibm/paw/xxxx/scripts/backup
+
+# delete old backups
+
