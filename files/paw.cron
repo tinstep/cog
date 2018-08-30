@@ -9,7 +9,7 @@
 # as this file will be overwritten on upgrades. 
 
 # Backing up the PAW instance also restarts the instance
-33 3 * * 0 root /ibm/additional_scripts/divert-backup.sh
+33 3 * * 0 root /ibm/paw/scripts/divert-backup.sh
 
 # delete old backups
-33 4 * * 0 root /ibm/additional_scripts/divert-delete.sh
+33 4 * * 0 root /ibm/paw/scripts/divert-delete.sh
